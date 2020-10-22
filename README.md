@@ -69,7 +69,7 @@ You can also ignore tests momentarily by adding an `x` at the front:
 ```javascript
 xdescribe("singles", () => {
     test("returns the sum of single values only", () => {
-        expect(singles([4,5,7,5,4,8])).toBe(15);
+        expect(singles([4, 5, 7, 5, 4, 8])).toBe(15);
         expect(singles([9, 10, 19, 13, 19, 13])).toBe([19]);
         expect(singles([16, 0, 11, 4, 8, 16, 0, 11])).toBe([12]);
         expect(singles([5, 17, 18, 11, 13, 18, 11, 13])).toBe([22]);
@@ -77,7 +77,7 @@ xdescribe("singles", () => {
     });
 
     test("returns 0 if no singles are provided", () => {
-        expect(capitalize([6, 6, 7, 8, 7, 8])).toBe(0);
+        expect(capitalize([6, 6, 8, 8])).toBe(0);
     });
 });
 ```

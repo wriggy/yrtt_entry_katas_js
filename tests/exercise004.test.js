@@ -10,6 +10,6 @@ describe("pigLatin", () => {
         expect(pigLatin('This is my string')).toBe('hisTay siay ymay tringsay')
     });
     test("ignores punctuation marks", () => {
-        expect(pigLatin('Pig latin is cool!!').toBe('igPay atinlay siay oolcay!!'))
+        expect(pigLatin('Pig latin is cool!!')).toBe('igPay atinlay siay oolcay!!')
     });
 });

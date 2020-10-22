@@ -24,10 +24,10 @@ const {
 
 describe("mexicanWave", () => {
     test("returns a mexican wave", () => {
-        expect(mexicanWave("hello")).toBe(["Hello", "hEllo", "heLlo", "helLo", "hellO"]);
-        expect(mexicanWave("coding")).toBe(["Coding", "cOding", "coDing", "codIng", "codiNg", "codiNg", "codinG"]);
-        expect(mexicanWave("")).toBe([]);
-        expect(mexicanWave("two words")).toBe(["Two words", "tWo words", "twO words", "two Words", "two wOrds", "two woRds", "two worDs", "two wordS"]);
-        expect(mexicanWave(" gap ")).toBe([" Gap ", " gAp ", " gaP "]);
+        expect(mexicanWave("")).toEqual([]);
+        expect(mexicanWave("hello")).toEqual(["Hello", "hEllo", "heLlo", "helLo", "hellO"]);
+        expect(mexicanWave("coding")).toEqual(["Coding", "cOding", "coDing", "codIng", "codiNg", "codiNg", "codinG"]);
+        expect(mexicanWave("two words")).toEqual(["Two words", "tWo words", "twO words", "two Words", "two wOrds", "two woRds", "two worDs", "two wordS"]);
+        expect(mexicanWave(" gap ")).toEqual([" Gap ", " gAp ", " gaP "]);
     });
 });
