@@ -27,15 +27,15 @@ const {
 
 describe("rowWeights", () => {
     test("returns the sums of each team", () => {
-        expect(rowWeights([80]), [80, 0]);
-        expect(rowWeights([100, 50]), [100, 50]);
-        expect(rowWeights([50, 60, 70, 80]), [120, 140]);
-        expect(rowWeights([13, 27, 49]), [62, 27]);
-        expect(rowWeights([70, 58, 75, 34, 91]), [236, 92]);
-        expect(rowWeights([29, 83, 67, 53, 19, 28, 96]), [211, 164]);
-        expect(rowWeights([0]), [0, 0]);
-        expect(rowWeights([100, 51, 50, 100]), [150, 151]);
-        expect(rowWeights([39, 84, 74, 18, 59, 72, 35, 61]), [207, 235]);
-        expect(rowWeights([0, 1, 0]), [0, 1]);
+        expect(rowWeights([80])).toBe([80, 0]);
+        expect(rowWeights([100, 50])).toBe([100, 50]);
+        expect(rowWeights([50, 60, 70, 80])).toBe([120, 140]);
+        expect(rowWeights([13, 27, 49])).toBe([62, 27]);
+        expect(rowWeights([70, 58, 75, 34, 91])).toBe([236, 92]);
+        expect(rowWeights([29, 83, 67, 53, 19, 28, 96])).toBe([211, 164]);
+        expect(rowWeights([0])).toBe([0, 0]);
+        expect(rowWeights([100, 51, 50, 100])).toBe([150, 151]);
+        expect(rowWeights([39, 84, 74, 18, 59, 72, 35, 61])).toBe([207, 235]);
+        expect(rowWeights([0, 1, 0])).toBe([0, 1]);
     });
 });
