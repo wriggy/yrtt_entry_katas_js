@@ -2,7 +2,7 @@
 
 This repository contains challenges for you to undertake to secure and prepare you for a place on the Tech Returners course. We will be checking over your solutions, so please ensure you push to GitHub regularly (little and often is key). 
 
-You may find these exercises challenging but they give you the opportunity to showcase your growth mindset and commitment to learning, programming, and trying your best. You can always come to us if you are having any trouble!
+You may find these exercises challenging but they give you the opportunity to showcase your growth mindset and commitment to learning, programming, and trying your best. You can always come to us if you are having any trouble.
 
 We cover Javascript on the Your Return to Tech course, so it's really important your problem solving skills are fresh. 
 
