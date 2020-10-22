@@ -22,6 +22,6 @@ describe("singles", () => {
     });
 
     test("returns 0 if no singles are provided", () => {
-        expect(capitalize([6, 6, 7, 8, 7, 8])).toBe(0);
+        expect(singles([6, 6, 7, 8, 7, 8])).toBe(0);
     });
 });
