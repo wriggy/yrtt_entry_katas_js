@@ -8,7 +8,7 @@ We cover Javascript on the Your Return to Tech course, so it's really important 
 
 If you need reminding of any key Javascript concepts to solve these tasks we recommend the 'Codecademy: Learn Javascript' (free) course: https://www.codecademy.com/learn/introduction-to-javascript
 
-NOTE: You are not required to purchase any PRO content from Codecademy.
+**NOTE: You are not required to purchase any PRO content from Codecademy.**
 
 We also recommend this visual guide if you are unfamiliar with GitHub: https://agripongit.vincenttunru.com/
 
@@ -36,7 +36,7 @@ When first cloning this repository, install its dependencies:
 
     npm install
 
-If you look inside the **taks** directory you will find a file of functions to implement.
+If you look inside the **tasks** directory you will find a file of functions to implement.
 
 To understand how these functions work, take a look in the corresponding test file where the desired functionality is described.
 
@@ -82,7 +82,7 @@ xdescribe("singles", () => {
 });
 ```
 
-To run ONE test file at a time you can enter into the terminal npm test followed by the file extension:
+To run **ONE** test file at a time you can enter into the terminal npm test followed by the file extension:
 
     npm test exercise004.test.js  
 
