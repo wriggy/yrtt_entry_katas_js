@@ -1,6 +1,6 @@
 const {
     pigLatin
-} = require("../challenges/exercise004");
+} = require("../tasks/exercise004");
 
 // Move the first letter of each word to the end of it, then add "ay" to the end of the word. Leave punctuation marks untouched.
 

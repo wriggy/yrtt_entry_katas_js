@@ -1,6 +1,6 @@
 const {
     past
-} = require("../challenges/exercise002");
+} = require("../tasks/exercise002");
 
 // The clock shows 'h' hours, 'm' minutes and 's' seconds after midnight.
 

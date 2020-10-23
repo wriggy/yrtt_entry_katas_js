@@ -1,6 +1,6 @@
 const {
     mexicanWave
-} = require("../challenges/exercise005");
+} = require("../tasks/exercise005");
 
 // Introduction
 // The wave (known as the Mexican wave in the English-speaking world outside North America) is an example of metachronal rhythm achieved in a packed 
