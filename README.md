@@ -1,12 +1,12 @@
 # JavaScript Entry Katas
 
-This repository contains challenges for you to undertake to secure and prepare you for a place on the Tech Returners course. We will be checking over your solutions, so please ensure you push to GitHub regularly (little and often is key). 
+This repository contains tasks for you to undertake to secure and prepare you for a place on the Tech Returners course. We will be checking over your solutions, so please ensure you push to GitHub regularly (little and often is key). 
 
 You may find these exercises challenging but they give you the opportunity to showcase your growth mindset and commitment to learning, programming, and trying your best. You can always come to us if you are having any trouble.
 
 We cover Javascript on the Your Return to Tech course, so it's really important your problem solving skills are fresh. 
 
-If you need reminding of any key Javascript concepts to solve these challenges we recommend the 'Codecademy: Learn Javascript' (free) course: https://www.codecademy.com/learn/introduction-to-javascript
+If you need reminding of any key Javascript concepts to solve these tasks we recommend the 'Codecademy: Learn Javascript' (free) course: https://www.codecademy.com/learn/introduction-to-javascript
 
 NOTE: You are not required to purchase any PRO content from Codecademy.
 
@@ -16,7 +16,7 @@ Remember to break down problems to help you solve them and that Google is your f
 
 ### Instructions
 
-To complete these challenges you will need to have Node.js installed on your computer. Follow this link and click on the green button to install for Mac or Windows: https://nodejs.org/en/download/ 
+To complete these takes you will need to have Node.js installed on your computer. Follow this link and click on the green button to install for Mac, Windows or Linux: https://nodejs.org/en/download/ 
 
 A download will start. When a pop-up appears please follow the installation instructions. 
 
@@ -30,13 +30,13 @@ Your terminal should respond with the version of Node you have installed. It wil
 
 Once you've got Node installed you can make a start.
 
-### Completing the challenges
+### Completing the tasks
 
 When first cloning this repository, install its dependencies:
 
     npm install
 
-If you look inside the **challenges** directory you will find a file of functions to implement.
+If you look inside the **taks** directory you will find a file of functions to implement.
 
 To understand how these functions work, take a look in the corresponding test file where the desired functionality is described.
 
@@ -87,6 +87,6 @@ To run ONE test file at a time you can enter into the terminal npm test followed
     npm test exercise004.test.js  
 
 
-# The challenges
+# The tasks
 
-You can see the first challenge in [exercise001.js](./challenges/exercise001.js)
+You can see the first task in [exercise001.js](./tasks/exercise001.js)

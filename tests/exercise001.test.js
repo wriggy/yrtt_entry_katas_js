@@ -1,6 +1,6 @@
 const {
     singles
-} = require("../challenges/exercise001");
+} = require("../tasks/exercise001");
 
 // In this Kata, you will be given an array of numbers in which two numbers occur once and the rest occur only twice. 
 
