@@ -82,12 +82,11 @@ xdescribe("singles", () => {
 });
 ```
 
-To run ONE test file at a tme you can enter into the terminal npm test followed by the file extension:
+To run ONE test file at a time you can enter into the terminal npm test followed by the file extension:
 
     npm test exercise004.test.js  
 
 
 # The challenges
 
-Open [the first challenge instructions](docs/exercise001.md) to get started!
-# TR-javascript-challenges
+You can see the first challenge in [exercise001.js](./challenges/exercise001.js)
