@@ -16,7 +16,7 @@ Remember to break down problems to help you solve them and that Google is your f
 
 ### Instructions
 
-To complete these takes you will need to have Node.js installed on your computer. Follow this link and click on the green button to install for Mac, Windows or Linux: https://nodejs.org/en/download/ 
+To complete these tasks you will need to have Node.js installed on your computer. Follow this link and click on the green button to install for Mac, Windows or Linux: https://nodejs.org/en/download/ 
 
 A download will start. When a pop-up appears please follow the installation instructions. 
 
