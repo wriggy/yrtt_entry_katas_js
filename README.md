@@ -24,7 +24,7 @@ To check you have installed Node.js correctly, go to your terminal and type:
 
     node --version
 
-Your terminal should respond with the version of Node you have installed. It will look something similar to the following (don't worry if its not the exact same version): 
+Your terminal should respond with the version of Node you have installed. It will look something similar to the following (don't worry if it's not the exact same version): 
 
     v14.5.0
 
