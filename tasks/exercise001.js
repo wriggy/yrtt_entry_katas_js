@@ -8,7 +8,19 @@
 function singles(arr){
     if (arr === undefined) throw new Error("array is required");
     // Your code here!
+    let uniqueNums = arr.filter((n,index) => {
+        return arr.indexOf(n) === index;
+        });
+    let sumUnique = uniqueNums.reduce(sum);
+    let sumAll = arr.reduce(sum);
+    
+    function sum(total, value) {
+            return total + value;
+    } 
+    return 2*sumUnique - sumAll;
 }
+
+//console.log('hello');
 
 module.exports = {
     singles

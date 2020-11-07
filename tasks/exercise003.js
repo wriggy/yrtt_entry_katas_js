@@ -23,6 +23,25 @@
 
 function rowWeights(array){
     // Your code here!
+    function sumOdd(total, value, index, array) {
+        if (index%2==0) {
+            sum = total+value;
+        } else {
+            sum = total;
+        }
+        return sum;
+    }; 
+    
+    function sumEven(total, value, index, array) {
+        if (index%2==1) { 
+            sum = total+value;
+        } else  {
+            sum = total;
+        }
+        return sum;
+    }; 
+    
+    return [array.reduce(sumOdd,0), array.reduce(sumEven,0)];
 }
 
 module.exports = {
